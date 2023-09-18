@@ -1,5 +1,5 @@
-/*
 import ejemplos.Circunferencia;
+/*
 import ejemplos.PrimitivasVsEnvolventes;
 import ejemplos.NumeroPrimo;
 import ejemplos.SerieFibonacci;
@@ -28,10 +28,10 @@ public class Main {
         // Llama al método sayHello del objeto myFoo
         helloWorld.sayHello();
         // Llama a los métodos main de los ejemplos
-        /*
+
         System.out.print("\nCircunferencia\n\n");
         Circunferencia.main(args);
-
+        /*
         System.out.print("\nPrimitivasVsEnvolventes\n\n");
         PrimitivasVsEnvolventes.main(args);
 
