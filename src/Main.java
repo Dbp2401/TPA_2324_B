@@ -5,7 +5,8 @@
 // import ejemplos.SumaDeNumeros;
 // import ejemplos.NumerosEnArray;
 // import ejemplos.NumerosEnArrayForEach;
-import ejemplos.PalabraAnalizada;
+// import ejemplos.PalabraAnalizada;
+import ejemplos.Coche;
 
 // Clase con el método main
 public class Main {
@@ -46,7 +47,19 @@ public class Main {
         // System.out.print("\nNumerosEnArrayForEach\n\n");
         // NumerosEnArrayForEach.main(args);
 
-        System.out.print("\nPalabraAnalizada\n\n");
-        PalabraAnalizada.main(args);
+        // System.out.print("\nPalabraAnalizada\n\n");
+        // PalabraAnalizada.main(args);
+
+        System.out.print("\nCoche\n\n");
+        Coche miCoche = new Coche("Toyota", "Corolla", 2020);
+
+        // Mostrar algunas propiedades del coche
+        System.out.println("Marca del coche: " + miCoche.getMarca());
+        System.out.println("Modelo del coche: " + miCoche.getModelo());
+        System.out.println("Año de fabricación: " + miCoche.getAnio());
+
+        // Invocar métodos del objeto
+        miCoche.arrancar();
+        miCoche.detener();
     }
 }
