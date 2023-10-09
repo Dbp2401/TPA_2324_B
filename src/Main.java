@@ -3,7 +3,8 @@
 // import ejemplos.NumeroPrimo;
 // import ejemplos.SerieFibonacci;
 // import ejemplos.SumaDeNumeros;
-import ejemplos.NumerosEnArray;
+// import ejemplos.NumerosEnArray;
+import ejemplos.NumerosEnArrayForEach;
 
 // Clase con el método main
 public class Main {
@@ -38,7 +39,10 @@ public class Main {
         // System.out.print("\nSumaDeNumeros\n\n");
         // SumaDeNumeros.main(args);
 
-        System.out.print("\nNumerosEnArray\n\n");
-        NumerosEnArray.main(args);
+        // System.out.print("\nNumerosEnArray\n\n");
+        // NumerosEnArray.main(args);
+
+        System.out.print("\nNumerosEnArrayForEach\n\n");
+        NumerosEnArrayForEach.main(args);
     }
 }
