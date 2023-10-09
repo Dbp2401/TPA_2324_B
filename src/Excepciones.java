@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Excepciones {
 
-    public static void main(String[] args) // throws FileNotFoundException, IOException
+    public static void main(String[] args) throws FileNotFoundException, IOException
     {
         // ArithmeticException
         // Lanzada cuando ocurre una excepción aritmética, como la división por cero.
