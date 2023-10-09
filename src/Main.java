@@ -1,5 +1,6 @@
-import ejemplos.Circunferencia;
-import ejemplos.PrimitivasVsEnvolventes;
+// import ejemplos.Circunferencia;
+// import ejemplos.PrimitivasVsEnvolventes;
+import ejemplos.NumeroPrimo;
 
 // Clase con el método main
 public class Main {
@@ -22,7 +23,10 @@ public class Main {
         // System.out.print("\nCircunferencia\n\n");
         // Circunferencia.main(args);
 
-        System.out.print("\nPrimitivasVsEnvolventes\n\n");
-        PrimitivasVsEnvolventes.main(args);
+        // System.out.print("\nPrimitivasVsEnvolventes\n\n");
+        // PrimitivasVsEnvolventes.main(args);
+
+        System.out.print("\nNumeroPrimo\n\n");
+        NumeroPrimo.main(args);
     }
 }
