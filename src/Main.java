@@ -1,6 +1,7 @@
 // import ejemplos.Circunferencia;
 // import ejemplos.PrimitivasVsEnvolventes;
-import ejemplos.NumeroPrimo;
+// import ejemplos.NumeroPrimo;
+import ejemplos.SerieFibonacci;
 
 // Clase con el método main
 public class Main {
@@ -26,7 +27,10 @@ public class Main {
         // System.out.print("\nPrimitivasVsEnvolventes\n\n");
         // PrimitivasVsEnvolventes.main(args);
 
-        System.out.print("\nNumeroPrimo\n\n");
-        NumeroPrimo.main(args);
+        // System.out.print("\nNumeroPrimo\n\n");
+        // NumeroPrimo.main(args);
+
+        System.out.print("\nSerieFibonacci\n\n");
+        SerieFibonacci.main(args);
     }
 }
