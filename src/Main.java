@@ -1,4 +1,5 @@
 import ejemplos.Circunferencia;
+import ejemplos.PrimitivasVsEnvolventes;
 
 // Clase con el método main
 public class Main {
@@ -16,9 +17,12 @@ public class Main {
         HelloWorld helloWorld = new HelloWorld();
 
         // Llama al método sayHello del objeto myFoo
-        helloWorld.sayHello();
+        // helloWorld.sayHello();
 
-        System.out.print("\nCircunferencia\n\n");
-        Circunferencia.main(args);
+        // System.out.print("\nCircunferencia\n\n");
+        // Circunferencia.main(args);
+
+        System.out.print("\nPrimitivasVsEnvolventes\n\n");
+        PrimitivasVsEnvolventes.main(args);
     }
 }
