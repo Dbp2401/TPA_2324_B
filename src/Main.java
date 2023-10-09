@@ -1,5 +1,9 @@
-import ejemplos.Circunferencia;
+import ejemplos.Actor;
+import ejemplos.Dwarf;
+import ejemplos.Elf;
+import java.util.ArrayList;
 /*
+import ejemplos.Circunferencia;
 import ejemplos.PrimitivasVsEnvolventes;
 import ejemplos.NumeroPrimo;
 import ejemplos.SerieFibonacci;
@@ -12,8 +16,20 @@ import ejemplos.Coche;
 
 // Clase con el método main
 public class Main {
+    public static void main(String[] args) {
+
+
+        ArrayList<Actor> Entities = new ArrayList<Actor>();
+        Entities.add(new Elf("Feanor"));
+        Entities.add(new Dwarf("Durin"));
+        for (Actor item : Entities) {
+            item.talk();
+        }
+    }
+
 
     // Clase interna Foo
+    /*
     public static class HelloWorld {
         // Método que imprime "Hello, world!"
         public void sayHello() {
@@ -55,10 +71,8 @@ public class Main {
 
         System.out.print("\nCoche\n\n");
         creaUnCoche();
-        */
-    }
 
-    /*
+    }
     public static void creaUnCoche() {
         // Crear un objeto de la clase Coche
         Coche miCoche = new Coche("Toyota", "Corolla", 2020);
@@ -74,17 +88,3 @@ public class Main {
     }
     */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
