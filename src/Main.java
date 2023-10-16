@@ -1,5 +1,4 @@
 import ejemplos.Circunferencia;
-/*
 import ejemplos.PrimitivasVsEnvolventes;
 import ejemplos.NumeroPrimo;
 import ejemplos.SerieFibonacci;
@@ -8,7 +7,7 @@ import ejemplos.NumerosEnArray;
 import ejemplos.NumerosEnArrayForEach;
 import ejemplos.PalabraAnalizada;
 import ejemplos.Coche;
-*/
+
 
 // Clase con el método main
 public class Main {
@@ -31,7 +30,7 @@ public class Main {
 
         System.out.print("\nCircunferencia\n\n");
         Circunferencia.main(args);
-        /*
+
         System.out.print("\nPrimitivasVsEnvolventes\n\n");
         PrimitivasVsEnvolventes.main(args);
 
@@ -55,7 +54,7 @@ public class Main {
 
         System.out.print("\nCoche\n\n");
         creaUnCoche();
-        */
+
     }
 
     /*
